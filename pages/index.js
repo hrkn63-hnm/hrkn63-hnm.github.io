@@ -5,7 +5,7 @@ import Division from "../components/details/division";
 
 const Index = () => {
   return (
-    <div>
+    <div class="container">
       <Layout header="Hariken" title="Hi! I'm Hariken!"></Layout>
       <Link href="/linkSample">
         <a>link Sample Page</a>
