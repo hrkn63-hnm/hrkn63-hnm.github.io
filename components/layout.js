@@ -19,9 +19,7 @@ export default function Layout(props) {
         ></link>
       </Head>
       <Header header={props.header} />
-      <div className="container">
-        {props.children}
-      </div>
+      <div className="container">{props.children}</div>
       <footer footer="copyright hariken" />
     </div>
   );
