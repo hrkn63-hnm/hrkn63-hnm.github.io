@@ -9,7 +9,7 @@ export default function Header(props) {
       <Container fluid>
         <Row>
           <Col className=" p-5  display-3">{props.header}</Col>
-          <Col className="p-5 text-right">
+          <Col className="p-5 m-4 text-right">
             <a href="https://www.youtube.com/" className="p-1">
               <img src="https://cdn.discordapp.com/attachments/757627473427955867/986991308432343090/1491580651-yumminkysocialmedia28_83061.png"></img>
             </a>
