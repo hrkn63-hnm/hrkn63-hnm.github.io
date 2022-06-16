@@ -21,7 +21,6 @@ export default function Layout(props) {
       </Head>
       <Header header={props.header} />
       <div className="container">
-        <h3 className="display-1 text-center ">{props.headline}</h3>
         {props.children}
       </div>
       <footer footer="copyright hariken" />
