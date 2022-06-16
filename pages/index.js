@@ -32,7 +32,7 @@ const Index = () => {
             date3="6月15日"
           />
         </div>
-        <Department title="Articles" />
+        <Department title="Blog" />
       </div>
     </div>
   );
