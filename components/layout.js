@@ -17,7 +17,6 @@ export default function Layout(props) {
           integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
           crossOrigin="anoymous"
         ></link>
-        <link rel="stylesheet" href="carousel.css"></link>
       </Head>
       <Header header={props.header} />
       <div className="container">
