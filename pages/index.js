@@ -9,15 +9,10 @@ import Blog from '../components/molecules/blog'
 
 const Index = () => {
   return (
-    <div class="container">
+    <div className="container">
       <Layout
-        header="Hariken"
-        headline="Hi! I'm Hariken!"
         title="Hariken"
       ></Layout>
-      <Link href="/linkSample">
-        <a>link Sample Page</a>
-      </Link>
       <div>
         <Slide />
         <div className="mt-5 pt-5 mb-5 pb-5">
@@ -25,11 +20,13 @@ const Index = () => {
             title="About Me"
             paragraph="はりけん++という名前で活動しています。茨城県に住む高校2年生やってます。"
             paragraph2="やりたいことが多すぎて人生が足りないと感じるほどいろんなことに興味があります。"
-            paragraph3=""
+            paragraph3="ドラえもんとサマーウォーズが好き。"
           />
-          <a href="#" class="btn btn-primary" value="primary">
-            詳しく
-          </a>
+          <Link href="/about">
+            <a className="btn btn-primary" value="primary">
+              詳しく
+            </a>
+          </Link>
         </div>
         <div className="mt-5 pt-5 mb-5 pb-5">
           <Department title="Skills" />
