@@ -4,6 +4,7 @@ import Department from "../components/organisms/department";
 import Works from "../components/molecules/works";
 import Slide from "../components/molecules/slide";
 import { Button } from "react-bootstrap";
+import Skills from "../components/molecules/skills";
 import Blog from '../components/molecules/blog'
 
 const Index = () => {
@@ -30,9 +31,7 @@ const Index = () => {
         </div>
         <div className="mt-5 pt-5 mb-5 pb-5">
           <Department title="Skills" />
-          <a href="#" class="btn btn-primary" value="primary">
-            詳しく
-          </a>
+          <Skills />
         </div>
         <div className="mt-5 pt-5 mb-5 pb-5">
           <Department title="Works" />
