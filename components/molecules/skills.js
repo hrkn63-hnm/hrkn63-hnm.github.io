@@ -12,7 +12,7 @@ export default function Skills(props) {
             <Skillsheet
               img="https://cdn.discordapp.com/attachments/757627473427955867/987357593112559716/code_FILL0_wght400_GRAD0_opsz48.png"
               skillname="プログラミング"
-              text="約半年前からプログラミングを始めて、今はHTML,CSS,JS,React,Node.js,React...などが専門です。そのうちAIやロボットに手を出したい。"
+              text="約半年前からプログラミングを始めて、現在はNode.jsやReact、Next.jsなどが専門です。そのうちAIやロボットに手を出したい。"
             />
           </Col>
           <Col className="col-4">
