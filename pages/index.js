@@ -23,7 +23,9 @@ const Index = () => {
         <div className="mt-5 pt-5 mb-5 pb-5">
           <Department
             title="About Me"
-            sentence="はりけん++という名前で活動しています。茨城県に住む高校2年生やってます。"
+            paragraph="はりけん++という名前で活動しています。茨城県に住む高校2年生やってます。"
+            paragraph2="やりたいことが多すぎて人生が足りないと感じるほどいろんなことに興味があります。"
+            paragraph3=""
           />
           <a href="#" class="btn btn-primary" value="primary">
             詳しく
@@ -36,17 +38,7 @@ const Index = () => {
         <div className="mt-5 pt-5 mb-5 pb-5">
           <Department title="Works" />
           <div>
-            <Works
-              img1="https://cdn.discordapp.com/attachments/757627473427955867/986602391631720468/154483cc28fd7c4e.png"
-              text1="テスト中"
-              date1="6月15日"
-              img2="https://cdn.discordapp.com/attachments/757627473427955867/986602391631720468/154483cc28fd7c4e.png"
-              text2="テスト中"
-              date2="6月15日"
-              img3="https://cdn.discordapp.com/attachments/757627473427955867/986602391631720468/154483cc28fd7c4e.png"
-              text3="テスト中"
-              date3="6月15日"
-            />
+            <Works />
           </div>
         </div>
         <div className="mt-5 pt-5 mb-5 pb-5">

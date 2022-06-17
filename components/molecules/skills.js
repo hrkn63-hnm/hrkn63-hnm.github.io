@@ -31,8 +31,15 @@ export default function Skills(props) {
           </Col>
           <Col className="col-4">
             <Skillsheet
+              img="https://cdn.discordapp.com/attachments/757627473427955867/987379731345342504/d1e3a2ab47ee746a.png"
+              skillname="動画編集"
+              text="かれこれ初めて4年目で、今でも時々作成することがある。最近トラッキングができるようになった。"
+            />
+          </Col>
+          <Col className="col-4">
+            <Skillsheet
               img="https://cdn.discordapp.com/attachments/757627473427955867/987357450904674394/record_voice_over_FILL0_wght400_GRAD0_opsz48.png"
-              skillname="人前で話すこと"
+              skillname="話すこと"
               text="急に人前で話せと言われても脳死でそれっぽく話すことができる。特にプレゼンが好きで得意。"
             />
           </Col>
