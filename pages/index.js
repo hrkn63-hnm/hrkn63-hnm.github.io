@@ -4,6 +4,7 @@ import Department from "../components/organisms/department";
 import Works from "../components/molecules/works";
 import Slide from "../components/molecules/slide";
 import { Button } from "react-bootstrap";
+import Blog from '../components/molecules/blog'
 
 const Index = () => {
   return (
@@ -51,6 +52,7 @@ const Index = () => {
         </div>
         <div className="mt-5 pt-5 mb-5 pb-5">
           <Department title="Blog" />
+          <Blog />
         </div>
       </div>
     </div>
