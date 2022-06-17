@@ -5,28 +5,25 @@ export default function Works(props) {
     <div>
       <div className="card-group">
         <Worksheet
-          img="https://cdn.discordapp.com/attachments/757627473427955867/986973635984109569/169.jpg"
-          title="テスト"
-          text="テスト中ですので悪しからず"
-          date="2022年6月16日"
+          img="https://cdn.discordapp.com/attachments/757627473427955867/987342630377623592/IMG_7819.jpg"
+          title="匿名掲示板"
+          text="Node.jsとSQLite3で作成。Node.js超入門[第3版] 掌田津耶乃(著)を参考にした。"
+          date="2022年6月17日 完成品"
+          repositoriy="https://github.com/hrkn63-hnm/ex-gen-app"
         />
         <Worksheet
-          img="https://cdn.discordapp.com/attachments/757627473427955867/986973635984109569/169.jpg"
-          title="テスト"
-          text="テスト中ですので悪しからず"
-          date="2022年6月16日"
+          img="https://cdn.discordapp.com/attachments/757627473427955867/987345254497779732/IMG_7823.jpg"
+          title="メモアプリ"
+          text="Reactで作成。React.js&Next.js超入門[第2版] 掌田津耶乃(著)を参考にした。"
+          date="2022年6月17日 作成中"
+          repositoriy="https://github.com/hrkn63-hnm/react_app"
         />
         <Worksheet
-          img="https://cdn.discordapp.com/attachments/757627473427955867/986973635984109569/169.jpg"
-          title="テスト"
-          text="テスト中ですので悪しからず"
-          date="2022年6月16日"
-        />
-        <Worksheet
-          img="https://cdn.discordapp.com/attachments/757627473427955867/986973635984109569/169.jpg"
-          title="テスト"
-          text="テスト中ですので悪しからず"
-          date="2022年6月16日"
+          img="https://cdn.discordapp.com/attachments/757627473427955867/987347018219417600/2022-05-18_16.44.171.jpg"
+          title="オンライン生徒手帳"
+          text="UIに問題がありすぎる一品。初めて共同開発した。"
+          date="2022年6月17日 作成中"
+          repositoriy="https://github.com/hrkn63-hnm/kss-rules"
         />
       </div>
     </div>
