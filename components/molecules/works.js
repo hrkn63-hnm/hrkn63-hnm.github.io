@@ -19,11 +19,19 @@ export default function Works(props) {
           repositoriy="https://github.com/hrkn63-hnm/react_app"
         />
         <Worksheet
-          img="https://cdn.discordapp.com/attachments/757627473427955867/987347018219417600/2022-05-18_16.44.171.jpg"
+          img="https://cdn.discordapp.com/attachments/757627473427955867/987383424551636992/2022-05-18_16.44.171.jpg"
           title="オンライン生徒手帳"
           text="UIに問題がありすぎる一品。初めて共同開発した。"
           date="2022年6月17日 作成中"
           repositoriy="https://github.com/hrkn63-hnm/kss-rules"
+          play="https://hrkn63-hnm.github.io/kss-rules/public/"
+        />
+        <Worksheet
+          img="https://cdn.discordapp.com/attachments/757627473427955867/987382866663071764/IMG_7825.jpg"
+          title="交通安全動画"
+          text="教員に頼まれて友人と共同制作したもの。ネタに走った。"
+          date="2022年6月17日 完成品"
+          play="https://www.youtube.com/watch?v=HEFO6Xoehis"
         />
       </div>
     </div>
