@@ -1,4 +1,3 @@
-import { ThemeProvider } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
@@ -8,7 +7,11 @@ export default function Header(props) {
     <div>
       <Container fluid>
         <Row>
-          <Col className=" p-5  display-3">{props.header}</Col>
+          <Col className=" p-3  display-3">
+            <img 
+              src="https://media.discordapp.net/attachments/757627473427955867/987332388734509056/HarikenWhite.jpg"
+              className="img-fluid"></img>
+          </Col>
           <Col className="p-5 m-4 text-right">
             <a href="https://www.youtube.com/" className="p-1">
               <img src="https://cdn.discordapp.com/attachments/757627473427955867/986991308432343090/1491580651-yumminkysocialmedia28_83061.png"></img>

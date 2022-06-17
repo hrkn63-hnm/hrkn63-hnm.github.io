@@ -21,7 +21,7 @@ const Index = () => {
         <div className="mt-5 pt-5 mb-5 pb-5">
           <Department
             title="About Me"
-            sentence="はりけんという名前で活動しています。茨城県に住む高校2年生やってます。"
+            sentence="はりけん++という名前で活動しています。茨城県に住む高校2年生やってます。"
           />
           <a href="#" class="btn btn-primary" value="primary">
             詳しく

@@ -7,37 +7,37 @@ export default function Slide(props) {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://cdn.discordapp.com/attachments/757627473427955867/986973635984109569/169.jpg"
+            src="https://cdn.discordapp.com/attachments/757627473427955867/987336157757063188/IMG_7818.png"
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>文化祭にてレビューサイトを公開</h3>
+            <p>文化祭２日目スタート時のサイトの様子</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://cdn.discordapp.com/attachments/757627473427955867/986973635984109569/169.jpg"
+            src="https://cdn.discordapp.com/attachments/757627473427955867/987335818966355998/IMG_7816.png"
             alt="Second slide"
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>初めて自分で作ったサイトを公開した時の様子</h3>
+            <p>無料サーバーとhtmlが僕の命綱だった時代</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://cdn.discordapp.com/attachments/757627473427955867/986973635984109569/169.jpg"
+            src="https://cdn.discordapp.com/attachments/757627473427955867/987336014022475816/IMG_7817.png"
             alt="Third slide"
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>初めてのPC</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              いい値段したけどMac買ってよかった
             </p>
           </Carousel.Caption>
         </Carousel.Item>
