@@ -34,6 +34,16 @@ export default function Works(props) {
           button2="みてみる"
           link2="https://www.youtube.com/watch?v=HEFO6Xoehis"
         />
+        <Worksheet
+          img="https://cdn.discordapp.com/attachments/757627473427955867/987575019393654784/IMG_7828.jpg"
+          title="あなたのいいところ診断"
+          text="N予備校の講座で作ったもの。Twitterによくあるやつ。"
+          date="2022年6月18日 完成品"
+          button1="リポジトリはこちら"
+          link1="https://github.com/hrkn63-hnm/assessment"
+          button2="みてみる"
+          link2="https://hrkn63-hnm.github.io/assessment/b"
+        />
       </div>
     </div>
   );
