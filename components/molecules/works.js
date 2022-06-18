@@ -25,10 +25,6 @@ export default function Works(props) {
           title="オンライン生徒手帳"
           text="UIに問題がありすぎる一品。初めて共同開発した。"
           date="2022年6月17日 作成中"
-          button1="リポジトリはこちら"
-          link1="https://github.com/hrkn63-hnm/kss-rules"
-          button2="みてみる"
-          link2="https://hrkn63-hnm.github.io/kss-rules/public/"
         />
         <Worksheet
           img="https://cdn.discordapp.com/attachments/757627473427955867/987382866663071764/IMG_7825.jpg"
