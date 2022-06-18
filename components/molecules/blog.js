@@ -4,7 +4,7 @@ import { ListGroup } from "react-bootstrap";
 export default function Blog(props) {
   return (
     <div>
-      <Card style={{ width: "54rem" }}>
+      <Card style={{ width: "rem" }}>
         <Card.Header>一覧</Card.Header>
         <ListGroup variant="flush">
           <ListGroup.Item>
