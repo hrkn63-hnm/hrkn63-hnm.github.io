@@ -5,15 +5,10 @@ import { Col } from "react-bootstrap";
 export default function Header(props) {
   return (
     <div>
-      <Container fluid>
+      <Container fluid className="">
         <Row>
-          <Col className=" p-3  display-3 ">
-            <img
-              src="https://media.discordapp.net/attachments/757627473427955867/987332388734509056/HarikenWhite.jpg"
-              className="img-fluid rounded"
-            ></img>
-          </Col>
-          <Col className="p-5 m-4 text-right">
+          <Col className=" p-3 ">HARIKEN++</Col>
+          <Col className="p-2 text-right">
             <a href="https://www.youtube.com/" className="p-1">
               <img src="https://cdn.discordapp.com/attachments/757627473427955867/986991308432343090/1491580651-yumminkysocialmedia28_83061.png"></img>
             </a>

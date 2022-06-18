@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "./organisms/header";
+import Footer from "./organisms/footer"
 
 export default function Layout(props) {
   return (
@@ -20,7 +21,6 @@ export default function Layout(props) {
       </Head>
       <Header header={props.header} />
       <div className="container">{props.children}</div>
-      <footer footer="copyright hariken" />
     </div>
   );
 }
