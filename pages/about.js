@@ -1,6 +1,7 @@
 import Layout from "../components/layout";
 import Department from "../components/organisms/department";
 import Footer from "../components/organisms/footer";
+import Link from "next/link";
 
 export default () => (
   <div>
@@ -25,6 +26,11 @@ export default () => (
           paragraph9="生徒会選挙に立候補しようとしている。"
           paragraph10="基本情報技術者試験を受けようとしている。試験の方式が変わって秋に受けるか春以降に受けるか迷い中。"
         />
+        <Link href="/">
+          <a className="btn btn-primary" value="primary">
+            戻る
+          </a>
+        </Link>
       </div>
       <Footer />
     </div>
