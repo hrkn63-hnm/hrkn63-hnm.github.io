@@ -7,13 +7,13 @@ export default function Worksheet(props) {
           <h5 className="card-title">{props.title}</h5>
           <p className="card-text">{props.text}</p>
           <button type="button" className="btn btn-primary m-3">
-            <a href={props.repositoriy} className="btn btn-primary">
-              リポジトリはこちら
+            <a href={props.link1} className="btn btn-primary">
+              {props.button1}
             </a>
           </button>
           <button type="button" className="btn btn-primary m-3">
-            <a href={props.play} className="btn btn-primary ">
-              みてみる
+            <a href={props.link2} className="btn btn-primary ">
+              {props.button2}
             </a>
           </button>
           <p className="card-text">
