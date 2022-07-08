@@ -44,6 +44,16 @@ export default function Works(props) {
           button2="みてみる"
           link2="https://hrkn63-hnm.github.io/assessment/b"
         />
+        <Worksheet
+          img="https://cdn.discordapp.com/attachments/757627473427955867/994855253407187024/2022-07-08_15.31.28.jpg"
+          title="今日のニャンコ"
+          text="サバイバルTypeScriptで作った。TSデビュー作"
+          date="2022年7月8日 完成品"
+          button1="リポジトリはこちら"
+          link1="https://github.com/hrkn63-hnm/random-cat11"
+          button2="みてみる"
+          link2="https://random-cat11.vercel.app/"
+        />
       </div>
     </div>
   );
