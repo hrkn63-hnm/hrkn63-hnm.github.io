@@ -19,7 +19,7 @@ export default function Skills(props) {
             <Skillsheet
               img="https://cdn.discordapp.com/attachments/757627473427955867/987358259532955728/2_2.png"
               skillname="バドミントン"
-              text="小学校からバドミントンをやっていて、何度か県大会に出たことがある。怪我により引退した。"
+              text="小学校からバドミントンをやっていて、何度か県大会に出たことがある。怪我により引退した。中学生のころは、後に東京五輪決勝審判になる方に教えてもらっていた。"
             />
           </Col>
           <Col className="col-4">
